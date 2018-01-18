@@ -60,6 +60,7 @@ main {
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
+    /* I know how to use floats, I just hate them. */
 }
 
 h2 {
@@ -79,6 +80,7 @@ footer {
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    /* I know how to use floats, I just hate them. */
     position: fixed;
     bottom: 0;
 }

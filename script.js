@@ -19,12 +19,12 @@ function setup() {
         if (d < 50) {
             if (mouseIsPressed) {
                 background(250, 80); //color, alpha
-                loadImage('purr-cat.png', function(img) {
+                loadImage('purr-cat.png', function(img) { //loving cat
                     image(img, 300, 50);
                 });
             } else {
                 background(250, 80); //color, alpha
-                loadImage('sleep-cat.png', function(img) {
+                loadImage('sleep-cat.png', function(img) { //sleeping cat
                     image(img, 300, 50);
                 });
             }
