@@ -1,4 +1,6 @@
 // p5.js file for 157 portal page
+// Tara Parker-Essig
+// DES 157 WQ 2018
 
 console.log("Hey you linked that js alright!");
 
