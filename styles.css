@@ -4,74 +4,80 @@
 */
 
 html {
-  background-color: #DDE2D9;
-  color: #2E2C2F;
-  font-family: sans-serif;
+    background-color: #DDE2D9;
+    color: #2E2C2F;
+    font-family: sans-serif;
 }
 
 a {
-  color: #6A6D69;
+    color: #6A6D69;
 }
 
 a:hover {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .wrapper {
-  background-color: #F3E8EE;
-  max-width: 768px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 25px;
+    background-color: #F3E8EE;
+    max-width: 840px;
+    /* Was originally 768 */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 header {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
-  margin-right: auto;
-  margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h1 {
-  font-size: 1.5rem;
-  margin-right: auto;
-  margin-left: auto;
+    font-size: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mySketch {
+    margin: auto;
 }
 
 main {
-  background-color: #BACDB0;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 20px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: space-around;
+    background-color: #BACDB0;
+    max-width: 760px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
-  font-size: 1.25rem;
-  padding-bottom: 5px;
+    font-size: 1.25rem;
+    padding-bottom: 5px;
 }
 
 li {
-  padding-bottom: 2px;
+    padding-bottom: 2px;
 }
 
 footer {
-  background-color: #F3E8EE;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  bottom: 0;
+    background-color: #F3E8EE;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
 }
