@@ -1,0 +1,65 @@
+/*  Studio 1 "Madlibs"
+    Tara Parker-Essig
+    DES 157 WQ 2018  */
+
+body {
+    font-family: 'Playfair Display', cursive;
+    font-size: 100%;
+    color: #553333;
+    background-color: #bb9999;
+    text-align: center;
+}
+
+#wrapper {
+    max-width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    background-color: #aa8888;
+    border-radius: 30px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+header {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccaaaa;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 4px 1px 0px #fff;
+    display: inline;
+}
+
+header strong {
+    margin-left: 10px;
+    font-style: normal;
+    font-size: 1.2em;
+    display: inline;
+    text-shadow: none;
+}
+
+#fillThis {
+    text-align: left;
+    background-color: #ccaaaa;
+    border-radius: 30px;
+}
+
+#seeThis {
+    text-align: left;
+    background-color: #ccaaaa;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #ccaaaa;
+    border-radius: 30px;
+}
