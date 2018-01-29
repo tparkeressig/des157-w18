@@ -80,13 +80,13 @@ input[type="text"] {
     background-color: #ffefef;
     border: none;
     color: #553333;
+    border: 3px #ffefef solid;
     border-radius: 2px;
     display: block;
 }
 
-.buttons {
-    position: relative;
-    margin-right: 10px;
+input[type="text"]:focus {
+    border: 3px #553333 solid;
 }
 
 footer {
