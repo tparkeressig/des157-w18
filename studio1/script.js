@@ -10,6 +10,8 @@ document.fillThisForm.onsubmit = processForm;
 //to capture the clear event and send it to a function
 document.fillThisForm.onreset = clearForm;
 
+
+
 //now go define your functions
 function processForm() {
     console.log("Form processed!");

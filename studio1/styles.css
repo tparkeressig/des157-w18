@@ -117,33 +117,35 @@ p {
     margin-right: auto;
 }
 
+/* footer stuff */
+
 a {
     text-decoration: none;
     font-family: sans-serif;
 }
 
 a:link {
-    color: white;
+    color: #ffefef;
 }
 
 a:visited {
-    color: white;
+    color: #ffefef;
 }
 
 a:hover {
-    color: #c0c6c6;
+    color: #fff;
 }
 
 a:active {
-    color: #c0c6c6;
+    color: #fff;
 }
 
 a:focus {
-    color: #c0c6c6;
+    color: #fff;
 }
 
 a:link {
-    color: white;
+    color: #ffefef;
 }
 
 footer {
