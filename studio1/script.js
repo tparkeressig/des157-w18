@@ -31,7 +31,7 @@ function processForm() {
     seeThis.style.display = "block";
 
 
-    lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + noun3 + " and a " + geoShape + " in your face, you get " + feeling + "!";
+    lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + noun3 + " and a " + geoShape + " thing in your face, you get " + feeling + "!";
 
 
     //last but not least: prevent the page from reloading and wasting all this effort! Dx
