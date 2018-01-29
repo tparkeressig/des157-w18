@@ -56,6 +56,10 @@ section {
     padding: 20px;
 }
 
+#seeThis {
+    display: none;
+}
+
 footer {
     margin: 20px;
     background-color: #ccaaaa;

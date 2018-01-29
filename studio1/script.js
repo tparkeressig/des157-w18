@@ -28,6 +28,8 @@ function processForm() {
     var geoShape = document.fillThisForm.geoShape.value;
     var feeling = document.fillThisForm.feeling.value;
 
+    seeThis.style.display = "block";
+
 
     lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + noun3 + " and a " + geoShape + " in your face, you get " + feeling + "!";
 
@@ -39,7 +41,7 @@ function processForm() {
 function clearForm() {
     console.log("Form cleared!");
 
-    lyrics.innerHTML = ""; //temp till I made a 3rd function
+    seeThis.style.display = "none";
 
     //guess this just refreshes the page, then?
 }
