@@ -19,56 +19,58 @@
         </header>
         <section id="fillThis">
             <h2>First, fill this out:</h2>
+
             <form name="fillThisForm">
-                <div>
-                    <!-- Replaces "butts" in the original -->
-                    <label for=noun1>A plural noun:</label>
-                    <input type="text" name="noun1" required/>
+                <div id="flexBoxing">
+                    <div>
+                        <!-- Replaces "butts" in the original -->
+                        <label for=noun1>A plural noun:</label>
+                        <input type="text" name="noun1" required/>
+                    </div>
+
+                    <div>
+                        <!-- Replaces "lie" in the original -->
+                        <label for=action>An action:</label>
+                        <input type="text" name="action" required/>
+                    </div>
+
+                    <div>
+                        <!-- Replaces "brothers" in the original -->
+                        <label for=nounPlural>Another plural noun:</label>
+                        <input type="text" name="nounPlural" required/>
+                    </div>
+
+                    <div>
+                        <!-- Replaces "girl" in the original -->
+                        <label for=noun2>A singular noun:</label>
+                        <input type="text" name="noun2" required/>
+                    </div>
+                    <div>
+                        <!-- Replaces "walks" in the original -->
+                        <label for=verbIn>A verb before "in":</label>
+                        <input type="text" name="verbIn" required/>
+                    </div>
+
+                    <div>
+                        <!-- Replaces "waist" in the original -->
+                        <label for=noun3>Another singular noun:</label>
+                        <input type="text" name="noun3" required/>
+                    </div>
+
+                    <div>
+                        <!-- Replaces "round" in the original -->
+                        <label for=geoShape>A shape:</label>
+                        <input type="text" name="geoShape" required/>
+                    </div>
+
+                    <div>
+                        <!-- Replaces "sprung" in the original -->
+                        <label for=feeling>A feeling:</label>
+                        <input type="text" name="feeling" required/>
+                    </div>
                 </div>
 
-                <div>
-                    <!-- Replaces "lie" in the original -->
-                    <label for=action>An action:</label>
-                    <input type="text" name="action" required/>
-                </div>
-
-                <div>
-                    <!-- Replaces "brothers" in the original -->
-                    <label for=nounPlural>Plural noun:</label>
-                    <input type="text" name="nounPlural" required/>
-                </div>
-
-                <div>
-                    <!-- Replaces "girl" in the original -->
-                    <label for=noun2>A singular noun:</label>
-                    <input type="text" name="noun2" required/>
-                </div>
-
-                <div>
-                    <!-- Replaces "walks" in the original -->
-                    <label for=verbIn>Singular present-tense verb:</label>
-                    <input type="text" name="verbIn" required/>
-                </div>
-
-                <div>
-                    <!-- Replaces "waist" in the original -->
-                    <label for=noun3>A singular noun:</label>
-                    <input type="text" name="noun3" required/>
-                </div>
-
-                <div>
-                    <!-- Replaces "round" in the original -->
-                    <label for=geoShape>A shape:</label>
-                    <input type="text" name="geoShape" required/>
-                </div>
-
-                <div>
-                    <!-- Replaces "sprung" in the original -->
-                    <label for=feeling>A feeling:</label>
-                    <input type="text" name="feeling" required/>
-                </div>
-
-                <div>
+                <div class="buttons">
                     <input type="reset" value="reset" />
                     <input type="submit" value="submit" />
                 </div>

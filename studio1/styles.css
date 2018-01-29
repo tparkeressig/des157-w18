@@ -53,11 +53,40 @@ section {
     text-align: left;
     background-color: #ccaaaa;
     border-radius: 30px;
-    padding: 20px;
+    padding: 1px 20px 20px 20px;
+}
+
+#flexBoxing {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #seeThis {
     display: none;
+}
+
+#flexBoxing div {
+    flex-basis: 20%;
+    align-self: flex-end;
+    margin: 5px;
+}
+
+input[type="text"] {
+    margin-top: 5px;
+    min-width: 160px;
+    height: 30px;
+    background-color: #ffefef;
+    border: none;
+    color: #553333;
+    border-radius: 2px;
+    display: block;
+}
+
+.buttons {
+    position: relative;
+    margin-right: 10px;
 }
 
 footer {
