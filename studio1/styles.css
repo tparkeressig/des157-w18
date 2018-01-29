@@ -102,13 +102,18 @@ form:last-child {
 }
 
 input[type="reset"], input[type="submit"] {
-    width: 80px;
+    width: 130px;
     height: 30px;
     color: #553333;
     background-color: #ffefef;
     border: none;
     border-radius: 2px;
     margin: 10px;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+    background-color: #553333;
+    color: #ffefef;
 }
 
 p {
