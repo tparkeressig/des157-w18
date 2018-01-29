@@ -21,7 +21,7 @@ function processForm() {
     //capture the form field responses as vars, too
     var noun1 = document.fillThisForm.noun1.value;
     var action = document.fillThisForm.action.value;
-    var nounPlural = ocument.fillThisForm.nounPlural.value;
+    var nounPlural = document.fillThisForm.nounPlural.value;
     var noun2 = document.fillThisForm.noun2.value;
     var verbIn = document.fillThisForm.verbIn.value;
     var noun3 = document.fillThisForm.noun3.value;
@@ -29,7 +29,7 @@ function processForm() {
     var feeling = document.fillThisForm.feeling.value;
 
 
- lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + "cannot deny – when a " + noun2 + " " + verbIn + "in with an itty bitty " + noun3 + "and a " + geoShape + "in your face, you get " + feeling + "!";
+    lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + noun3 + " and a " + geoShape + " in your face, you get " + feeling + "!";
 
 
     //last but not least: prevent the page from reloading and wasting all this effort! Dx
@@ -39,7 +39,7 @@ function processForm() {
 function clearForm() {
     console.log("Form cleared!");
 
-    lyrics.innerHTML = "";
+    lyrics.innerHTML = ""; //temp till I made a 3rd function
 
     //guess this just refreshes the page, then?
 }
