@@ -26,14 +26,14 @@ function processForm() {
     var nounPlural = document.fillThisForm.nounPlural.value;
     var noun2 = document.fillThisForm.noun2.value;
     var verbIn = document.fillThisForm.verbIn.value;
-    var noun3 = document.fillThisForm.noun3.value;
-    var geoShape = document.fillThisForm.geoShape.value;
+    var nounSmall = document.fillThisForm.nounSmall.value;
+    var greatThing = document.fillThisForm.greatThing.value;
     var feeling = document.fillThisForm.feeling.value;
 
     seeThis.style.display = "block";
 
 
-    lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + noun3 + " and a " + geoShape + " thing in your face, you get " + feeling + "!";
+    lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + nounSmall + " and a " + greatThing + " thing in your face, you get " + feeling + "!";
 
 
     //last but not least: prevent the page from reloading and wasting all this effort! Dx
