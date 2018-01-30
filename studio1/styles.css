@@ -102,7 +102,7 @@ form:last-child {
 }
 
 input[type="reset"], input[type="submit"] {
-    width: 150px;
+    width: 160px;
     height: 30px;
     color: #553333;
     background-color: #ffefef;
