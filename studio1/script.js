@@ -38,6 +38,8 @@ function processForm() {
 
     //play the audio!
     bgTrack.play();
+    bgTrack.currentTime = 17.5; //set to the start of the song
+    console.log("Is the music playing?");
 
     //last but not least: prevent the page from reloading and wasting all this effort! Dx
     return false;
@@ -46,8 +48,9 @@ function processForm() {
 function clearForm() {
     console.log("Form cleared!");
 
-    //stop the audio!
-    bgTrack.stop();
+    //pause the audio!
+    bgTrack.pause();
+    console.log("Hope the music paused!");
 
     seeThis.style.display = "none";
 
