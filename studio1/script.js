@@ -1,8 +1,9 @@
 /*  Studio 1 "Madlibs"
     Tara Parker-Essig
     DES 157 WQ 2018  */
-
+'use strict';
 console.log("Hello! We're ready to go!");
+
 
 // to capture form submission and send it to a function
 document.fillThisForm.onsubmit = processForm;
