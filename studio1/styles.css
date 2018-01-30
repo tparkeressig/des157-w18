@@ -1,176 +1,176 @@
-/*  Studio 1 "Madlibs"
-    Tara Parker-Essig
-    DES 157 WQ 2018  */
+                                                    /*  Studio 1 "Madlibs"
+                                                        Tara Parker-Essig
+                                                        DES 157 WQ 2018  */
 
-body {
-    font-family: 'Playfair Display', cursive;
-    font-size: 100%;
-    color: #553333;
-    background-color: #bb9999;
-    text-align: center;
-}
+                                                    body {
+                                                        font-family: 'Playfair Display', cursive;
+                                                        font-size: 100%;
+                                                        color: #553333;
+                                                        background-color: #bb9999;
+                                                        text-align: center;
+                                                    }
 
-#wrapper {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding: 30px 30px 30px 30px;
-    background-color: #aa8888;
-    border-radius: 30px;
-}
+                                                    #wrapper {
+                                                        max-width: 1000px;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        margin-top: 10px;
+                                                        padding: 30px 30px 30px 30px;
+                                                        background-color: #aa8888;
+                                                        border-radius: 30px;
+                                                    }
 
-h1, h2, h3 {
-    font-weight: bold;
-    font-style: italic;
-}
+                                                    h1, h2, h3 {
+                                                        font-weight: bold;
+                                                        font-style: italic;
+                                                    }
 
-/* header stuff */
+                                                    /* header stuff */
 
-header {
-    max-width: 70%;
-    min-height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ccaaaa;
-    border-radius: 30px;
-}
+                                                    header {
+                                                        max-width: 70%;
+                                                        min-height: 100px;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        background-color: #ccaaaa;
+                                                        border-radius: 30px;
+                                                    }
 
-h1 {
-    font-size: 4rem;
-    text-shadow: 4px 1px 0px #fff;
-    display: inline;
-}
+                                                    h1 {
+                                                        font-size: 4rem;
+                                                        text-shadow: 4px 1px 0px #fff;
+                                                        display: inline;
+                                                    }
 
-header strong {
-    margin-left: 10px;
-    font-style: normal;
-    font-size: 1.2em;
-    display: inline;
-    text-shadow: none;
-}
+                                                    header strong {
+                                                        margin-left: 10px;
+                                                        font-style: normal;
+                                                        font-size: 1.2em;
+                                                        display: inline;
+                                                        text-shadow: none;
+                                                    }
 
-/* form stuff */
+                                                    /* form stuff */
 
-section {
-    margin: 20px;
-    text-align: left;
-    background-color: #ccaaaa;
-    border-radius: 30px;
-    padding: 1px 20px 20px 20px;
-}
+                                                    section {
+                                                        margin: 20px;
+                                                        text-align: left;
+                                                        background-color: #ccaaaa;
+                                                        border-radius: 30px;
+                                                        padding: 1px 20px 20px 20px;
+                                                    }
 
-h2 {
-    text-align: center;
-}
+                                                    h2 {
+                                                        text-align: center;
+                                                    }
 
-#flexBoxing {
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 10px;
-}
+                                                    #flexBoxing {
+                                                        display: flex;
+                                                        flex-flow: row wrap;
+                                                        flex-direction: row;
+                                                        justify-content: center;
+                                                        margin-bottom: 10px;
+                                                    }
 
-#flexBoxing div {
-    flex-basis: 18%;
-    align-self: flex-end;
-    margin: 5px;
-}
+                                                    #flexBoxing div {
+                                                        flex-basis: 18%;
+                                                        align-self: flex-end;
+                                                        margin: 5px;
+                                                    }
 
-input[type="text"] {
-    margin-top: 5px;
-    min-width: 160px;
-    height: 30px;
-    background-color: #ffefef;
-    border: none;
-    color: #553333;
-    border: 3px #ffefef solid;
-    border-radius: 2px;
-    display: block;
-}
+                                                    input[type="text"] {
+                                                        margin-top: 5px;
+                                                        min-width: 160px;
+                                                        height: 30px;
+                                                        background-color: #ffefef;
+                                                        border: none;
+                                                        color: #553333;
+                                                        border: 3px #ffefef solid;
+                                                        border-radius: 2px;
+                                                        display: block;
+                                                    }
 
-input[type="text"]:focus {
-    border: 3px #553333 solid;
-}
+                                                    input[type="text"]:focus {
+                                                        border: 3px #553333 solid;
+                                                    }
 
-label {
-    text-align: left;
-}
+                                                    label {
+                                                        text-align: left;
+                                                    }
 
-form:last-child {
-    text-align: center;
-}
+                                                    form:last-child {
+                                                        text-align: center;
+                                                    }
 
-input[type="reset"], input[type="submit"] {
-    width: 160px;
-    height: 30px;
-    color: #553333;
-    background-color: #ffefef;
-    border: none;
-    border-radius: 2px;
-    margin: 10px;
-}
+                                                    input[type="reset"], input[type="submit"] {
+                                                        width: 160px;
+                                                        height: 30px;
+                                                        color: #553333;
+                                                        background-color: #ffefef;
+                                                        border: none;
+                                                        border-radius: 2px;
+                                                        margin: 10px;
+                                                    }
 
-input[type="reset"]:hover, input[type="submit"]:hover {
-    background-color: #553333;
-    color: #ffefef;
-}
+                                                    input[type="reset"]:hover, input[type="submit"]:hover {
+                                                        background-color: #553333;
+                                                        color: #ffefef;
+                                                    }
 
-/* results stuff */
+                                                    /* results stuff */
 
-#seeThis {
-    display: none;
-}
+                                                    #seeThis {
+                                                        display: none;
+                                                    }
 
-p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    font-size: 1.5em;
-}
+                                                    p {
+                                                        max-width: 600px;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        margin-top: 30px;
+                                                        font-size: 1.5em;
+                                                    }
 
-#info {
-    text-align: center;
-    font-size: .8em;
-}
+                                                    #info {
+                                                        text-align: center;
+                                                        font-size: .8em;
+                                                    }
 
-/* footer stuff */
+                                                    /* footer stuff */
 
-a {
-    text-decoration: none;
-    font-family: sans-serif;
-}
+                                                    a {
+                                                        text-decoration: none;
+                                                        font-family: sans-serif;
+                                                    }
 
-a:link {
-    color: #ffefef;
-}
+                                                    a:link {
+                                                        color: #ffefef;
+                                                    }
 
-a:visited {
-    color: #ffefef;
-}
+                                                    a:visited {
+                                                        color: #ffefef;
+                                                    }
 
-a:hover {
-    color: #fff;
-}
+                                                    a:hover {
+                                                        color: #fff;
+                                                    }
 
-a:active {
-    color: #fff;
-}
+                                                    a:active {
+                                                        color: #fff;
+                                                    }
 
-a:focus {
-    color: #fff;
-}
+                                                    a:focus {
+                                                        color: #fff;
+                                                    }
 
-a:link {
-    color: #ffefef;
-}
+                                                    a:link {
+                                                        color: #ffefef;
+                                                    }
 
-footer {
-    font-size: .8em;
-    margin: 20px;
-    background-color: #ccaaaa;
-    border-radius: 30px;
-    padding: 20px;
-}
+                                                    footer {
+                                                        font-size: .8em;
+                                                        margin: 20px;
+                                                        background-color: #ccaaaa;
+                                                        border-radius: 30px;
+                                                        padding: 20px;
+                                                    }
