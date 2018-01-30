@@ -10,7 +10,8 @@ document.fillThisForm.onsubmit = processForm;
 //to capture the clear event and send it to a function
 document.fillThisForm.onreset = clearForm;
 
-
+var bgTrack = new Audio(); //new var to hold audio
+bgTrack.src = "babygotbgtrack.mp3";
 
 //now go define your functions
 function processForm() {
@@ -35,6 +36,8 @@ function processForm() {
 
     lyrics.innerHTML = "I like big " + noun1 + " and I cannot " + action + "! My other " + nounPlural + " cannot deny – when a " + noun2 + " " + verbIn + " in with an itty bitty " + nounSmall + " and a " + greatThing + " thing in your face, you get " + feeling + "!";
 
+    //play the audio!
+    bgTrack.play();
 
     //last but not least: prevent the page from reloading and wasting all this effort! Dx
     return false;
@@ -42,6 +45,9 @@ function processForm() {
 
 function clearForm() {
     console.log("Form cleared!");
+
+    //stop the audio!
+    bgTrack.stop();
 
     seeThis.style.display = "none";
 
