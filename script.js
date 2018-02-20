@@ -18,10 +18,14 @@ function setup() { //once
         image(img, 300, 50);
     });
     background(250); //color
+
+    
 }
 
 function draw() { //repeating
 }
+
+
 
 function mousePressed() { //when you press down on the mouse
     var d = dist(mouseX, mouseY, 410, 120);
